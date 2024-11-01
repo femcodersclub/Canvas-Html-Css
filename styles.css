@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(-45deg, #6d2c95, #4737bb, #d1c4f9, #821ad4);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+canvas {
+  background: radial-gradient(circle, #3a3a4f, #1c1c2b);
+  border-radius: 12px;
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+}
+
+  
+  
+  
